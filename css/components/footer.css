@@ -1,0 +1,13 @@
+.help {
+  margin-right: 15px;
+}
+.help-footer {
+  margin-top: 25px;
+  display: flex;
+}
+.help-text {
+  margin-left: 50px;
+}
+.help-icon {
+  margin-left: 100px;
+}

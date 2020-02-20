@@ -1,0 +1,9 @@
+.btn {
+  color: white;
+  width: 241px;
+  height: 66px;
+  font-size: 24px;
+}
+.btn .btn-warning {
+  text-align: center;
+}

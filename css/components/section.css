@@ -1,0 +1,113 @@
+.section {
+  position: relative;
+  padding: 100px 0;
+}
+.section-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+}
+.section-hero {
+  height: 740px;
+  color: #ffffff;
+  padding: 0;
+}
+.section-hero .section-foreground {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.section-hero .section-foreground .section-body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.section-hero .section-description {
+  font-size: 75px;
+}
+.section-hero .section-content {
+  margin-top: 90px;
+}
+.section-services {
+  text-align: center;
+}
+.section-services .card svg {
+  text-align: center;
+  margin-left: 100px;
+}
+.section-portfolio {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.section-team img {
+  border-radius: 100%;
+  border: none;
+}
+.section-team {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.section-team .card {
+  background-color: #f7f7f7;
+}
+.section-emblem {
+  text-align: center;
+  background-color: black;
+  z-index: -1;
+  color: white;
+}
+.section-emblem img {
+  position: absolute;
+  right: -50%;
+  top: 20%;
+  height: 720px;
+  width: 1459px;
+}
+.section-footer {
+  color: black
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  height: 80px;
+  margin-top:20px;
+
+}
+.section-services .card-deck{
+  margin-top:60px;
+}
+.section-team .card-deck{
+  margin-top:60px;
+}
+.row-cols-md-3{
+  margin-top:60px;
+}
+.section-emblem .section-description {
+margin-bottom: 60px;
+}
+.section-team .section-description{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.section-sponsors{
+  text-align:center;
+ }
+ .section-sponsors img{
+  padding-right: 20px;
+ }
